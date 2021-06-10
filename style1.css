@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.film{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.konten{
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 99%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.poster{
+    flex-basis: 25%;
+    height: 430px;
+    overflow: hidden;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(228, 227, 227);
+    box-shadow: 5px 5px rgb(201, 191, 191);
+}
+
+.foto{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+#a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all;
+}
+
+.foto img:hover{
+    transform: scale(1.15);
+}
+
+.foto p{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    width: 100%;
+    background-color: rgb(95, 218, 95);
+    position: absolute;
+    top: 93%;
+}
+
+.isi{
+    padding-left: 10px;
+}
+
+.isi p{
+    font-size: 12px;
+    text-align: left;
+    font-style: italic;
+}
+
+#h3{
+    text-align: center;
+}
